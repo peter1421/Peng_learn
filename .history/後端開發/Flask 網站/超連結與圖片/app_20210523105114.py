@@ -5,6 +5,7 @@ app = Flask(
     static_url_path="/"
 )
 
+#fffww
 @app.route("/")
 def index():
     return render_template("index.html")

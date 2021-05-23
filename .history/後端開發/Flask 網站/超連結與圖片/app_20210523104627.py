@@ -1,10 +1,11 @@
 from flask import Flask, request, render_template
 app = Flask(
     __name__,
-    static_folder="static",
+    static_folder="public",
     static_url_path="/"
 )
 
+#fffww
 @app.route("/")
 def index():
     return render_template("index.html")
